@@ -1,4 +1,3 @@
-//Prueba de branch tiempo
 
 class Tiempo{
     private:
@@ -8,4 +7,5 @@ class Tiempo{
     public:
         Tiempo(int, int, int);
         Tiempo(int);
+        string getTiempo();
 };

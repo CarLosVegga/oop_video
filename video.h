@@ -1,16 +1,13 @@
-#include <iostream>
-#include <vector>
-using namespace std;
 
 class Video{
     private:
         int ID;
-        String nombre;
+        string nombre;
         Tiempo duracion;
-        String genero;
+        string genero;
         double calificacion;
     public:
-        virtual mostrar(String);
+        virtual mostrar(string);
         virtual mostrar(double);
-        Video(int, String, Tiempo, String, double);
+        Video(int, string, Tiempo, string, double);
 };
