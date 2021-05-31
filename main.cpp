@@ -7,3 +7,10 @@ Angel Rubén Vázquez Rivera A01735407*/
 #include "tiempo.cpp"
 #include "episodio.cpp"
 #include "serie.cpp"
+
+
+int main(){
+
+
+  return 0;
+}
